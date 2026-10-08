@@ -77,16 +77,20 @@ FROM v$diag_info;
 SHOW PARAMETER spfile;
 
 ## 12. Check Important Parameters
-Processes:-
+Processes
+
 SHOW PARAMETER processes;
 
-Sessions:- 
+Sessions
+
 SHOW PARAMETER sessions;
 
-Memory:- 
+
+Memory
+
 SHOW PARAMETER memory;
 
-Diagnostic Destination:- 
-SHOW PARAMETER diagnostic_dest;
+Diagnostic Destination
 
+SHOW PARAMETER diagnostic_dest;
 
